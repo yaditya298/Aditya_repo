@@ -44,7 +44,7 @@ if (vru < 0 || vru > 5)
 puts "Please enter a valid rating"
 else
 movies1[mnameu] = vru
-puts "Rating Saved"
+puts "Rating updated"
 puts movies1
 end
 else
