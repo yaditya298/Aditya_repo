@@ -20,7 +20,7 @@ puts "please enter the movie name"
 mnamea = gets.chomp
 puts "please enter the rating between 0 and 5"
 ra = gets.chomp
-vra = ra.to_i
+vra = ra.to_f
 # Validating the rating entered by user #
 if (vra < 0 || vra > 5)
 puts "Please enter a valid rating"
@@ -39,7 +39,7 @@ mnameu = gets.chomp
 if movies1.key?(mnameu)
 puts "Please enter the new rating between 0 to 5"
 ru = gets.chomp
-vru = ru.to_i
+vru = ru.to_f
 if (vru < 0 || vru > 5)
 puts "Please enter a valid rating"
 else
