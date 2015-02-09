@@ -64,6 +64,7 @@ end
 
 when "4"
 puts "Good Bye"
+i = 3
 break
 
 else
