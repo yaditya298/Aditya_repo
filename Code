@@ -1,7 +1,7 @@
 i = 0
 
 # The following statement declares a new hash as movies1 #
-1
+movies1 = Hash.new
 
 until 2<i do
 puts "Please enter an input"
